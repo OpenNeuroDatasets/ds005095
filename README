@@ -1,0 +1,23 @@
+﻿# Overview
+
+This is the "Sternberd Difficult" dataset.
+
+# Format of the Dataset
+
+The dataset is organized according to the BIDS (Brain Imaging Data Structure) using MNE-BIDS [1],[2].
+For the more sophisticated description see the "dataset_description.json" file.
+
+Note, that metadata in provided in the ".tsv" files while respective descriptions and specifications are given in ".json" files.
+
+# Details about the Dataset
+
+Important: triggers in the dataset correspond only to the beginning of the stimulus presenation. No additional triggers were implemented to mark the onset of the retention and retrieval periods. However, the aforementioned timepoints can be computed, based on the experimental design. Each sample was presented for 1500ms, meaning that the retention time occured strictly 1500ms after the trigger point appeared in the data. Similarly, time of the retrieval (when participants had to explicitly state, whether a new letter has been shown previously) could be marked at 3500ms relative to the trial onset.
+
+
+
+References
+----------
+[1]Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
+
+[2]Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8
+

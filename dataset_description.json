@@ -1,0 +1,18 @@
+{
+    "Name": "STERNBERG",
+    "BIDSVersion": "1.7.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Natalia Zhozhikashvili",
+        "Maria Protopova",
+        "Tatiana Shkurenko",
+        "Marie Arsalidou",
+        "Ilya Zakharov",
+        "Boris Kotchoubey",
+        "Sergey Malykh",
+        "Yuri Pavlov"
+    ],
+    "EthicsApprovals": [
+        "Ethics committee of the Psychological Institute of Russian Academy of Education"
+    ]
+}
