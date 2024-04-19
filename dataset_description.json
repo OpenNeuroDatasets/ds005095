@@ -14,5 +14,7 @@
     ],
     "EthicsApprovals": [
         "Ethics committee of the Psychological Institute of Russian Academy of Education"
-    ]
+    ],
+    "DatasetDOI": "doi:10.18112/openneuro.ds005095.v1.0.0",
+    "License": "CC0"
 }
